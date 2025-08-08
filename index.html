@@ -1,15 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-<meta name="google-site-verification" content="NaTYCG0NPe5c6REvWvwaj7WVdMV00oQ0wLUYeLOl7_U" />    <meta charset="UTF-8" />
+    <meta name="google-site-verification" content="NaTYCG0NPe5c6REvWvwaj7WVdMV00oQ0wLUYeLOl7_U" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Wealthsimple Referral Code S7ZV8G – Get $25 Free</title>
-    <meta
-      name="description"
-      content="Use my Wealthsimple referral code S7ZV8G or sign up using the referral link to get $25 free when you fund your account with $1. Fast and easy signup."
-    />
+
+    <meta name="description" content="Use my Wealthsimple referral code S7ZV8G or sign up using the referral link to get $25 free when you fund your account with $1. Fast and easy signup." />
     <meta property="og:title" content="Wealthsimple Referral Code – Get $25 Free" />
     <meta property="og:description" content="Join Wealthsimple and get a $25 bonus. Use code S7ZV8G or sign up with the referral link!" />
     <meta property="og:image" content="wealthsimple-preview.png" />
@@ -17,12 +14,11 @@
     <meta property="og:type" content="website" />
 
     <link rel="icon" href="favicon.png" type="image/png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@7.1.0/dist/ionicons.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 
     <style>
       :root {
@@ -61,8 +57,8 @@
         text-align: center;
       }
       code {
-        color:#4e54c8;
-        font-size: 25px;
+        color: #4e54c8;
+        font-size: 20px;
         font-weight: 1000;
       }
       .cta-buttons {
@@ -71,11 +67,12 @@
         justify-content: center;
         gap: 1rem;
         margin-top: 2rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
       }
       .button-link,
       .copy-btn {
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
         padding: 0.9rem 1.8rem;
         border-radius: 8px;
         border: none;
@@ -87,24 +84,35 @@
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
       .button-link {
-        background: #40c057;
+        background: #2f9e44;
         color: #fff;
       }
       .button-link:hover {
         transform: translateY(-2px);
-        background: #2f9e44;
+        background: #40c057;
       }
       .copy-btn {
-        background: var(--primary);
+        background: #6741d9;
         color: #fff;
       }
       .copy-btn:hover {
         transform: translateY(-2px);
-        background: var(--primary-light);
+        background: #845ef7;
+      }
+      .copy-btn ion-icon {
+        margin-right: 0.5rem;
+        font-size: 1.2rem;
       }
       #referralCode {
         position: absolute;
         left: -9999px;
+      }
+      .copy-feedback {
+        text-align: center;
+        color: #28a745;
+        font-weight: bold;
+        display: none;
+        margin-top: 0.5rem;
       }
       .flex-image-section {
         display: flex;
@@ -151,99 +159,85 @@
     </header>
     <main class="container">
       <h2>Join Wealthsimple & Get $25 Instantly</h2>
-
       <p>
-        <strong>Want to earn free money just for signing up?</strong> Use my Wealthsimple
-        referral code <code>S7ZV8G</code> or sign up by clicking the Sign Up button below to receive a
-        <strong>$25 bonus</strong>
+        <strong>Want to earn free money just for signing up?</strong> Use my Wealthsimple referral code
+        <code>S7ZV8G</code> or sign up by clicking the Sign Up button below to receive a <strong>$25 bonus</strong>.
       </p>
 
       <div class="cta-buttons">
-        <a
-          class="button-link"
-          href="https://www.wealthsimple.com/invite/S7ZV8G"
-          target="_blank"
-          rel="noopener"
-        >
+        <a class="button-link" href="https://www.wealthsimple.com/invite/S7ZV8G" target="_blank" rel="noopener">
           Sign Up & Get $25
         </a>
-        <button class="copy-btn" onclick="copyCode()">Copy Referral Code</button>
+        <button class="copy-btn" onclick="copyCode()">
+                    <ion-icon name="copy-outline" id="copyIcon"></ion-icon>
+
+          Copy Referral Code
+        </button>
         <input type="text" id="referralCode" value="S7ZV8G" readonly />
       </div>
+      <div id="copyMsg" class="copy-feedback">Referral code copied!</div>
 
       <div class="flex-image-section">
         <div class="flex-text">
-          <p><strong>Already signed up but forgot to use the referral link?</strong> No problem:</p>
+          <p><strong>Already signed up but forgot to use the referral link?</strong> No problem, here is what you can do:</p>
           <ol>
             <li>
-              If you haven't funded your account yet: open your WealthSimple app, click on the gift icon in the top right of the main screen, as the image shows, and enter code
-              <code>S7ZV8G</code> when prompted.
+              If you haven't funded your account yet: open your WealthSimple app, click on the gift icon in the top
+              right of the main screen, as the image shows, and enter code <code>S7ZV8G</code> when prompted.
             </li>
-            <li>
-              If you've already funded your account: you can still enter the code within
-              <strong>7 days after funding</strong>
-            </li>
+            <li>If you've already funded your account: you can still enter the code within <strong>7 days after funding</strong></li>
           </ol>
-          <p>Note that you need to fund your account with at least $1 to receive the bonus.</p>
+          <p>Note that you need to fund your account with <strong>at least $1</strong> to receive the bonus.</p>
           <p>
-            The $25 bonus is deposited into your <strong>Wealthsimple Chequing account</strong>. If
-            you don’t have one, you’ll need to open it within 30 days to receive the bonus.
+            The $25 bonus is deposited into your <strong>Wealthsimple Chequing account</strong>. If you don’t have one,
+            you’ll need to open it within 30 days to receive the bonus.
           </p>
         </div>
         <div class="flex-image">
-          <img
-            src="image.jpg"
-            alt="Screenshot showing where to enter Wealthsimple referral code S7ZV8G"
-            loading="lazy"
-          />
+          <img src="image.jpg" alt="Screenshot showing where to enter Wealthsimple referral code S7ZV8G" loading="lazy" />
         </div>
       </div>
 
       <section style="margin-top: 4rem; border-top: 2px solid #ddd; padding-top: 1rem">
         <h2>Frequently Asked Questions (FAQ)</h2>
-
         <details>
           <summary><strong>How do I use the Wealthsimple referral code?</strong></summary>
-          <p>
-            Click the referral link or manually enter the code <code>S7ZV8G</code> during or after
-            signup. You can apply it anytime before funding or within 7 days after funding your
-            account.
-          </p>
+          <p>Click the referral link or manually enter the code <code>S7ZV8G</code> during or after signup.</p>
         </details>
-
         <details>
           <summary><strong>What do I get from this referral?</strong></summary>
-          <p>
-            You get a <strong>$25 bonus</strong> once you fund your Wealthsimple account with at least
-            $1. The bonus may take a few business days to appear in your Chequing account.
-          </p>
+          <p>You get a <strong>$25 bonus</strong> once you fund your account with at least $1.</p>
         </details>
-
         <details>
           <summary><strong>Which Wealthsimple products are eligible?</strong></summary>
-          <p>
-            This referral bonus applies to new users of <strong>Wealthsimple Cash, Trade, or Invest</strong>.
-          </p>
+          <p>This referral bonus applies to Wealthsimple Cash, Trade, or Invest accounts.</p>
         </details>
-
       </section>
     </main>
     <footer>&copy; 2025 Wealthsimple Referral Info</footer>
 
     <script>
       async function copyCode() {
+        const code = "S7ZV8G";
+        const icon = document.getElementById("copyIcon");
+        const msg = document.getElementById("copyMsg");
+
         try {
-          await navigator.clipboard.writeText("S7ZV8G");
-          alert("Referral code copied: S7ZV8G");
+          await navigator.clipboard.writeText(code);
         } catch (err) {
-          const codeInput = document.getElementById("referralCode");
-          codeInput.select();
+          const input = document.getElementById("referralCode");
+          input.select();
           document.execCommand("copy");
-          alert("Referral code copied: " + codeInput.value);
         }
+
+        icon.name = "checkmark-outline";
+        msg.style.display = "block";
+
+        setTimeout(() => {
+          icon.name = "copy-outline";
+          msg.style.display = "none";
+        }, 2500);
       }
     </script>
   </body>
 </html>
-
-
